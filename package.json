@@ -1,6 +1,5 @@
 {
   "name": "calculator",
-  "homepage": "https://shina-esh.ir/calc/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
