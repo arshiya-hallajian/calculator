@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply rounded-full text-2xl bg-transparent p-5 text-white w-16 h-16 flex justify-center items-center hover:opacity-90 hover:shadow-2xl
+    }
+    .operator {
+        @apply bg-gradient-to-br from-orange-300 to-red-600
+    }
+    .equal {
+        @apply bg-gradient-to-r from-pink-400 to-pink-600
+    }
+}
